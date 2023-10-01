@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html leng="hu">
+<head>
+  <title>IKT Projektmunka 1.</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+<header>
+
+</header>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Rendezesi algoritmus</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Algoritmus</a></li>
+          <li><a href="#section2">Hatékonyság</a></li>
+          <li><a href="#section3">Leírása</a></li>
+          <li><a href="#section4">Szemléltető</a></li>
+          <li><a href="#section5">Forrás</a></li>
+          <li><a href="2intex.html">code</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section0" class="container-fluid" >
+  <h1 class="f">Rendezési algoritmus bemutatása</h1>
+   
+</div>
+
+<div id="section1" class="container-fluid">
+  <h1>Algoritmus</h1>
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6" id="rcorners2">
+        <h3>Számok rendezése:</h3>
+        <p>A számok rendezéséhez használt algoritmus egy cserés rendezési módszer, amely számokat vizsgál és cserél, hogy növekvő vagy csökkenő sorrendbe helyezze őket.</p>
+      </div>
+      <div class="col-sm-6" id="rcorners2">
+        <h3>Szavak rendezése: </h3>
+        <p> A szavak rendezéséhez egy buborékrendezési algoritmust alkalmaznak, amely szavakat hasonlít össze és cserél szükség esetén, hogy rendezett sorrendet hozzon létre.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section2" class="container-fluid" >
+  <h1>Hatékonyság</h1>
+  <div id="rcorners1">
+  <p>Egyik legnagyobb előnye a koktélrendezésnek, hogy meglehetősen hatékony és gyors algoritmus, amely a kétirányú cseréknek köszönhetően gyorsan konvergál egy rendezett állapothoz, és megbízhatóan teljesít mind számokkal, mind szavakkal dolgozva. Azáltal, hogy ezt az algoritmust alkalmazza, könnyedén rendezhet bármilyen típusú adatot, amely lehetővé teszi az alkalmazásokban és projektjeiben való hatékony munkát.</p>
+    <p>Mivel pythonban íródott:</p>
+  <h3>Tárigénye: <h4>csekély 12KB</h4> </h3> 
+  </div>
+</div>
+
+<div id="section3" class="container-fluid">
+  <h1>Koktélrendezés</h1>
+  <ul>
+  <li><p>Az említett algoritmus képes nemcsak számokat, hanem szavakat is rendezni, így rendkívül hasznos eszköz a rendezési feladatokhoz mind az adatsorok, mind az adatok jellege szempontjából.Az alkalmazás az elején eldönti, hogy az adatok számok vagy szövegek formájában vannak-e az állományban. Az alapján alakítja ki az adatstruktúrát. Ha az adatok nem megfelelőek vagy helytelenek, akkor a rendezési folyamatot nem folytatja tovább.A program lehetővé teszi a felhasználónak, hogy válasszon egy rendezési algoritmust az alábbiak közül: egyszerű cserés rendezés, buborékrendezés, továbbfejlesztett buborékrendezés, beszúrásos rendezés, továbbfejlesztett beszúrásos rendezés, minimum/maximum kiválasztásos rendezés.</p></li>
+  <li><p>A számok rendezésekor a koktélrendezés a következőképpen működik: Az algoritmus először elkezdi a rendezést a balról jobbra haladva, és minden lépésben megvizsgálja az aktuális számot az utána következő számmal, és ha azok nincsenek megfelelő sorrendben, akkor cserét hajt végre közöttük. Ezt követően a rendszer visszafelé is végignéz, és szükség esetén cseréket hajt végre. Az eljárás addig ismétlődik, amíg az adatsor rendezett állapotba nem kerül.</p></li>
+  <li><p>A szavak rendezésekor a koktélrendezés hasonló módon működik. Az algoritmus összehasonlítja a szavakat és szükség esetén cseréket hajt végre, majd megfordul és visszafele is ugyanezt teszi. Ezen ismétlések során a szavak az előre vagy hátra haladnak annak érdekében, hogy rendezett sorrendet hozzanak létre.</p></li>
+  </ul>
+</div>
+
+<div id="section4" class="container-fluid">
+  <h1>Szemléltető ábra</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+<div id="section5" class="container-fluid" >
+    <h1 class="f">Forrás</h1>
+    <p>&nbsp&nbsp&nbsp<a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm_outind" target="_blank" >GeeksForGeeks.com</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="https://stackoverflow.com" target="_blank">StackOverflow.com</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="https://chat.openai.com/?model=gpt-4" target="_blank">ChatGPT.com</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="https://www.w3schools.com/python/default.asp" target="_blank">W3Schools.com</a></p> 
+  </div>
+  
+
+
+</body>
+</html>
